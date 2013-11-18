@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/s_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="time"
+        android:textColor="#2d2d2d"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/s_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/s_time"
+        android:singleLine="true"
+        android:text="全体大会"
+        android:textColor="#2d2d2d"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/s_title" >
+
+        <TextView
+            android:id="@+id/s_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="演讲嘉宾:"
+            android:textColor="#2d2d2d"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/s_des1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="80dp"
+            android:text="..."
+            android:textColor="#2d2d2d"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout2" >
+
+        <TextView
+            android:id="@+id/s_sub_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主持人:"
+            android:textColor="#2d2d2d"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/s_des2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="80dp"
+            android:text="..."
+            android:textColor="#2d2d2d"
+            android:textSize="14sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1" >
+
+        <TextView
+            android:id="@+id/s_title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="说明:"
+            android:textColor="#2d2d2d"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/s_des3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="80dp"
+            android:text="..."
+            android:textColor="#2d2d2d"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

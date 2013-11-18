@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/username_bg" />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image1"
+        android:layout_alignTop="@+id/image1"
+        android:layout_marginLeft="35dp"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:hint="@string/login_username"
+        android:singleLine="true"
+        android:textColor="#2d2d2d"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:src="@drawable/password_bg" />
+
+    <EditText
+        android:id="@+id/pass_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/image2"
+        android:layout_alignTop="@id/image2"
+        android:layout_marginLeft="35dp"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:hint="@string/login_password"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#2d2d2d"
+        android:textSize="18sp" />
+
+</RelativeLayout>

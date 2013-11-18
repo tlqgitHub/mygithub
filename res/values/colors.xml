@@ -1,0 +1,35 @@
+<resources>
+
+    <color name="meun_no_pressed">#212121</color>
+    <color name="meun_pressed">#4a454d</color>
+    <color name="color_pressed">#35363e</color>
+    
+            
+    <color name="black_overlay">#66000000</color>
+    <color name="normal">#ffffff</color>
+
+    <color name="menu">#000000</color>
+    <color name="menuselect">#4876FF</color>
+    <color name="speedindex">#a30234</color>
+    <color name="replycolor">#5b5b5b</color>
+    <color name="transport">#00000000</color>
+    
+    <color name="itemselect">#4a454d</color>
+    <color name="select">#ffffff</color>
+    <color name="itemselect0">#4a454d</color>
+    <color name="select0">#212121</color>
+    
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="light_orange">#fcb75c</color>
+    <color name="alpha_00">#00000000</color>
+    <color name="gray">#DBDBDB</color>
+    <color name="trans">#50000000</color>
+    <color name="red">#fe0202</color>
+    <color name="background">#e5e5e5</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="text_gray">#4F4F4F</color>
+    <color name="green">#00FF00</color>
+    <color name="grey21">#363636</color>
+    <color name="gold">#b89766</color>
+</resources>

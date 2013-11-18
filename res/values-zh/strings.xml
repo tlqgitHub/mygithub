@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="error_invalid_password">密码太短</string>
+    <string name="error_field_required">不能为空！</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="isFullScreen">是否全屏</string>
+    <string name="yesfullScreen">是</string>
+    <string name="noFullScreen">否</string>
+    <string name="forum_info">论坛概况</string>
+    <string name="wellcome_you">欢迎您!</string>
+    <string name="mail_identity_error">确认你的参会者身份!</string>
+    <string name="map_detail">地图详细</string>
+    <string name="title_ti">专题诠释：</string>
+    <string name="error_connect">连接失败，请检查网络！</string>
+    <string name="no_map">当前会议没有地图！</string>
+    <string name="event_notice">参会须知</string>
+    <string name="friends_detail">好友信息</string>
+    <string name="hit_two_exit">再按一次退出！</string>
+    <string name="are_you_sure">确认注销吗？</string>
+    <string name="diss_talk_it">评论</string>
+    <string name="app_name">中国商务旅行论坛</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_event_manager">会议管理</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="logout_ok">注销成功！</string>
+    <string name="editmContent">我要说的话..</string>
+    <string name="action_meet">参与的会议</string>
+    <string name="menu_friend_oper">操作</string>
+    <string name="menu_friend_dele">删除好友</string>
+    <string name="menu_friend_clen">取消</string>
+    <string name="schedule_line_title">平行论坛</string>
+    <string name="myschedule">我的日程</string>
+    <string name="huatan">上海华探通讯  版权所有</string>
+    <string name="docdetail">文档详细</string>
+    <string name="unzip">解压中..</string>
+    <string name="event_map">会议地图</string>
+    <string name="mail_text_error">请填写内容!</string>
+    <!-- menu -->
+    <string name="menu_used">常用</string>
+    <string name="menu_more">更多</string>
+    <string name="menu_disscus">讨论区</string>
+    <string name="menu_friends">好友</string>
+    <string name="menu_calendar">日程</string>
+    <string name="menu_speakers">演讲嘉宾</string>
+    <string name="islogout">确认注销吗？</string>
+    <string name="notice">提示</string>
+    <string name="menu_forgot_password">忘记密码?</string>
+    <string name="menu_user_login">登录</string>
+    <string name="sina">新浪</string>
+    <string name="register">注册</string>
+    <string name="uesrlogin">用户登录</string>
+    <string name="eventslistzip">正在下载会议数据包</string>
+    <string name="speakersurlzip">正在下载演讲嘉宾数据包</string>
+    <string name="schedulesurlzip">正在下载会议日程数据包</string>
+    <string name="newsurlzip">正在下载会议新闻数据包</string>
+    <string name="sponsorsurlzip">正在下载会议赞助商数据包</string>
+    <string name="exhibitorsurlzip">正在下载展商数据包</string>
+    <string name="docsurlzip"> 正在下载会议文档数据包</string>
+    <string name="participantsurlzip">正在下载参会嘉宾数据包</string>
+    <string name="login_other">合作伙伴帐号登录</string>
+    <string name="error_net">请注意检查网络</string>
+    <string name="broadCastReceiver">收到了广播</string>
+    <string name="find_meeting">查找会议</string>
+    <string name="edit_3_char">请输入三个字符</string>
+    <string name="listmeet">会议</string>
+    <string name="refresh">刷新</string>
+    <string name="support_1">支持</string>
+    <string name="loading">加载中..</string>
+    <string name="load">下载</string>
+    <string name="under">第</string>
+    <string name="file">文件</string>
+    <string name="warmtips">温馨提示</string>
+    <string name="msg_home">对不起,由于多种原因,你所选择的会议,活动目前还没有配置好移动应用数据，故不能访问。请直接联系主办方问询或以后重试</string>
+    <string name="ok">确定</string>
+    <string name="message">消息</string>
+    <string name="schedule">日程</string>
+    <string name="discuss_1">讨论区</string>
+    <string name="friends_1">好友</string>
+    <string name="news_1">新闻</string>
+    <string name="messagedetailfrom">消息来自</string>
+    <string name="messagedetailto">发送消息给</string>
+    <string name="exhibitors_1">展商</string>
+    <string name="investigate_1">调查</string>
+    <string name="guests_1">参会嘉宾</string>
+    <string name="data_1">文档</string>
+    <string name="more_1">更多</string>
+    <string name="nonetwork_1">当前没有网络,数据下载不成功</string>
+    <string name="home">首页</string>
+    <string name="support">技术支持</string>
+    <string name="login">登 录</string>
+    <string name="aboutme">关于我</string>
+    <string name="login_remember_password">记住密码</string>
+    <string name="login_password">密码</string>
+    <string name="login_username">用户</string>
+    <string name="more">更多</string>
+    <string name="cancel">取消</string>
+    <string name="conferencedes">会议简介</string>
+    <string name="sponsor">赞助机构</string>
+    <string name="cancellogin">注销</string>
+    <string name="meetme">中会社区</string>
+    <string name="meetme_0">中会广场</string>
+    <string name="author">作者：</string>
+    <string name="size">大小：</string>
+    <string name="docslist">文档</string>
+    <string name="speakerspeople">演讲嘉宾</string>
+    <string name="speakersdetail">嘉宾详细</string>
+    <string name="searchspeakerspeople">查找</string>
+    <string name="meetpeople">参会代表</string>
+    <string name="addfriend">加好友</string>
+    <string name="sendmessage">发消息</string>
+    <string name="alreadlymeet">参加的会议</string>
+    <string name="schedulesdetail">日程简介</string>
+    <string name="schedulesintroduction">日程简介</string>
+    <string name="meetmap">会议地图</string>
+    <string name="collectschedules">收藏日程</string>
+    <string name="cancelschedules">取消收藏</string>
+    <string name="surveylist">调查</string>
+    <string name="questionnaire">调查问卷</string>
+    <string name="exhibitorscomplay">展商</string>
+    <string name="exhibitorscomplaydetail">展商详细</string>
+    <string name="listnews">新闻</string>
+    <string name="newsdetail">新闻详细</string>
+    <string name="friendlist">我的好友</string>
+    <string name="friendrequest">好友请求</string>
+    <string name="discuss">讨论区</string>
+    <string name="newtopic">新话题</string>
+    <string name="reply">回复</string>
+    <string name="discussdetail">讨论区详细</string>
+    <string name="theinbox">收件箱</string>
+    <string name="thesent">发件箱</string>
+    <string name="selectmessagepeople">选择收信人</string>
+    <string name="messagedetail">信息详细</string>
+    <string name="mailcompose">编写信息</string>
+    <string name="info">个人信息</string>
+    <string name="empty">空</string>
+    <string name="lastpage">已经是最后一页了</string>
+    <string name="firstpage">已经是第一页了</string>
+    <string name="meetdetailed">会议简介</string>
+    <string name="sendemail">发消息</string>
+    <string name="hello">Hello World, MeetMeEventActivity!</string>
+    <string name="androidabout">关于我们</string>
+    <string name="error">错误</string>
+    <string name="exception">异常</string>
+    <string name="deletefriend">取消好友</string>
+    <string name="listschedules">日程</string>
+    <string name="close">关闭</string>
+    <string name="msg_login_incorrect">用户名或密码不正确</string>
+    <string name="mail_compose_recipient">收信人:</string>
+    <string name="mail_compose_select_user">请选择</string>
+    <string name="mail_compose_subject">主题</string>
+    <string name="mail_compose_text">正文内容</string>
+    <string name="mail_compose_options_me">将副本发送email到我</string>
+    <string name="mail_compose_options_recipient">将副本发送Email到收信人</string>
+    <string name="mail_compose_options_both">将副本发送Email到全部</string>
+    <string name="mail_compose_send">发送</string>
+    <string name="msg_error">提示</string>
+    <string name="null_content">内容不能为空!</string>
+    <string name="mail_error">错误</string>
+    <string name="mail_form_error">请填写消息主题、正文</string>
+    <string name="mail_success">成功</string>
+    <string name="mail_msg_send_failed">消息发送失败</string>
+    <string name="mail_wait_before_sendin_another_msg">你要等待的时间发送另一个消息</string>
+    <string name="mail_you_are_blocked">你列表的收件人</string>
+    <string name="mail_recipient_is_inactive">收件人剖面不会被激活</string>
+    <string name="mail_unknown_recipient">未知接收者</string>
+    <string name="mail_msg_successfully_sent">消息发送成功</string>
+    <string name="accept"> 接受  </string>
+    <string name="refuse"> 拒绝  </string>
+    <string name="nomore">没有更多的新闻了</string>
+    <string name="mail_new">NEW</string>
+    <string name="sent">发送</string>
+    <string name="success">成功</string>
+    <string name="replysuccess">回复成功</string>
+    <string name="sponsorslist">合作机构</string>
+    <string name="sponsorsdetail">合作机构详细</string>
+    <string name="meetpeopledetail">人员详细</string>
+    <string name="goto_page">去页面…</string>
+    <string name="goto_page_dialog_title">去页面</string>
+    <string name="goto_page_go_button">Go</string>
+    <string name="rotate_page_left">左转</string>
+    <string name="rotate_page_right">右转</string>
+    <string name="find_text">查找..</string>
+    <string name="find_dialog_title">查找文本</string>
+    <string name="find_go_button">查找</string>
+    <string name="find_cancel_button">取消</string>
+    <string name="clear_find_text">清除查找</string>
+    <string name="choose_file">打开…</string>
+    <string name="toggle_invert">反转</string>
+    <string name="toggle_fine_zoom">Toggle fine zoom</string>
+    <string name="set_as_home">设置当前文件夹为默认</string>
+    <string name="go_home">主页</string>
+    <string name="searching_for">查找 "%1$s"</string>
+    <string name="page_of">页 %1$d of %2$d</string>
+    <string name="options">操作</string>
+    <string name="zoom_animation">缩放按钮</string>
+    <string name="exhibitorsmap">展位地图</string>
+    <string name="replycontent">说点什么吧..</string>
+    <string name="chioch">智能选择</string>
+    <string name="readinfo">查看个人资料</string>
+    <string name="eidtmail">写信</string>
+    <string name="delefriend">删除好友</string>
+
+    <string-array name="zoom_animations">
+        <item>100</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="zoom_animation_labels">
+        <item>disabled</item>
+        <item>disappear</item>
+        <item>almost disappear</item>
+        <item>fade</item>
+    </string-array>
+
+    <string name="default_zoom_animation">2</string>
+    <string name="page_animation">Page number/count</string>
+
+    <string-array name="page_animations">
+        <item>100</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="page_animation_labels">
+        <item>disabled</item>
+        <item>disappear</item>
+        <item>almost disappear</item>
+        <item>fade</item>
+        <item>show always</item>
+    </string-array>
+
+    <string name="default_page_animation">2</string>
+    <string name="fade_speed">Zoom and page fade wait</string>
+
+    <string-array name="fade_speeds">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="fade_speed_labels">
+        <item>1 second</item>
+        <item>2 seconds</item>
+        <item>3 seconds</item>
+        <item>4 seconds</item>
+        <item>5 seconds</item>
+        <item>6 seconds</item>
+        <item>7 seconds</item>
+    </string-array>
+
+    <string name="default_fade_speed">7</string>
+    <string name="invert">Invert colors</string>
+    <string name="dirs_first">List directories first</string>
+    <string name="show_extension">Show .pdf extension</string>
+    <string name="orientation">Orientation</string>
+    <string name="default_orientation">0</string>
+
+    <string-array name="orientation_labels">
+        <item>automatic</item>
+        <item>harder to change</item>
+        <item>lock to portrait</item>
+        <item>lock to landscape</item>
+    </string-array>
+    <string-array name="orientations">
+        <item>0</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="viewer">PDF Viewer</string>
+    <string name="selector">File Chooser</string>
+    <string name="fullscreen">Fullscreen</string>
+    <string name="render_ahead">Render ahead</string>
+    <string name="render_ahead_sub">Uses more memory but faster forward scrolling.</string>
+    <string name="gray">Grayscale</string>
+    <string name="gray_sub">No colors, slightly slower, but uses less memory.</string>
+    <string name="page">Page</string>
+    <string name="color_mode">Color mode</string>
+
+    <string-array name="color_mode_labels">
+        <item>Normal color</item>
+        <item>Inverted color</item>
+        <item>Normal black and white</item>
+        <item>Inverted black and white</item>
+        <item>Black on yellowish</item>
+        <item>Green on black</item>
+        <item>Red on black</item>
+    </string-array>
+    <string-array name="color_modes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="default_color_mode">0</string>
+    <string name="omit_images">Skip images</string>
+    <string name="vertical_scroll_lock">Vertical scroll lock</string>
+    <string name="vertical_scroll_lock_sub">To scroll horizontally, you must first move horizontally 1/5 of the screen width.</string>
+    <string name="box">PDF page box type</string>
+
+    <string-array name="box_labels">
+        <item>ArtBox</item>
+        <item>BleedBox</item>
+        <item>CropBox</item>
+        <item>MediaBox</item>
+        <item>TrimBox</item>
+    </string-array>
+    <string-array name="boxes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="default_box">2</string>
+    <string name="extra_cache">Extra cache memory</string>
+    <string name="extra_cache_sub">Using extra cache memory can improve scrolling smoothness at the expense of stability.</string>
+
+    <string-array name="extra_caches">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="extra_cache_labels">
+        <item>none</item>
+        <item>1 MB</item>
+        <item>2 MB</item>
+        <item>4 MB</item>
+        <item>6 MB</item>
+        <item>8 MB</item>
+        <item>10 MB</item>
+    </string-array>
+
+    <string name="default_extra_cache">0</string>
+    <string name="side_margin">Extra side margins</string>
+    <string name="default_side_margin">0</string>
+
+    <string-array name="margins">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="margin_labels">
+        <item>none</item>
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+    </string-array>
+
+    <string name="top_margin">Space between pages</string>
+    <string name="default_top_margin">10</string>
+    <string name="remove_from_recent">Remove from recent</string>
+    <string name="delete">Delete file</string>
+
+    <string-array name="double_tap_actions">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="double_tap_action_labels">
+        <item>none</item>
+        <item>zoom in</item>
+        <item>zoom in or back out</item>
+    </string-array>
+
+    <string name="default_double_tap_action">2</string>
+    <string name="double_tap_action">Double tap action</string>
+
+    <string-array name="action_pairs">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>9</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="action_pair_labels">
+        <item>none</item>
+        <item>screen up/down</item>
+        <item>page up/down</item>
+        <item>page prev/next</item>
+        <item>zoom 1.02X</item>
+        <item>zoom 1.05X</item>
+        <item>zoom 1.1X</item>
+        <item>zoom 1.2X</item>
+        <item>zoom 1.414X</item>
+        <item>zoom 2X</item>
+        <item>screen up/down reversed</item>
+        <item>page up/down reversed</item>
+        <item>page prev/next reversed</item>
+    </string-array>
+
+    <string name="volume_pair">Volume -/+ key actions</string>
+    <string name="up_down_pair">Up/Down key actions</string>
+    <string name="left_right_pair">Left/Right key actions</string>
+    <string name="zoom_pair">Zoom button actions</string>
+    <string name="long_zoom_pair">Long press zoom button actions</string>
+    <string name="right_up_down_pair">Nook Touch right up/down key actions</string>
+    <string name="top_bottom_tap_pair">Action for top/bottom tap</string>
+    <string name="default_volume_pair">1</string>
+    <string name="default_up_down_pair">1</string>
+    <string name="default_left_right_pair">2</string>
+    <string name="default_zoom_pair">7</string>
+    <string name="default_long_zoom_pair">8</string>
+    <string name="default_right_up_down_pair">1</string>
+    <string name="default_top_bottom_tap_pair">0</string>
+    <string name="hw">Hardware Specific Settings</string>
+    <string name="eink">E-ink optimizations</string>
+    <string name="nook2">Nook2 fast e-ink refresh</string>
+    <string name="disabled">Disabled</string>
+    <string name="keep_on">Keep screen on while reading</string>
+    <string name="show_zoom_on_scroll">Show zoom when scrolling</string>
+    <string name="history">Show recent files</string>
+    <string name="table_of_contents">Table of Contents</string>
+    <string name="toc_dialog_title">Table of Contents</string>
+    <string name="text_reflow">Text Reflow</string>
+
+</resources>

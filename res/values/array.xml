@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu_names">
+        <item>Home</item>
+        
+        <item>Commonly Used</item>
+        <item>Discussion Board</item>
+        <item>Messages</item>
+        <item>Contacts</item>
+        <item>Surveys</item>
+        <item>My Calendar</item>
+        
+        <item>More</item>
+        <item>Agenda</item>
+        <item>Forum Overview</item>
+        <item>Guest Speakers</item>
+        <item>Sponsors</item>
+        <item>Delegates</item>
+        <item>Media Center</item>
+        <item>FAQ</item>
+        <item>Organizers</item>
+        <item>Past Forums</item>
+        <item>Download Center</item>
+        
+    </string-array>
+    <string-array name="home_list_names">
+        <item>Hello, Welcome to the 2013 CBTF!</item>
+        <item>广告位</item>
+        <item>Forum Overview</item>
+        <item>Agenda</item>
+        <item>Guest Speakers</item>
+        <item>Sponsors</item>
+        <item>FAQ</item>
+        <item>广告位</item>
+    </string-array>
+ 
+</resources>

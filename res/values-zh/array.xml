@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu_names">
+        <item>返回首页</item>
+        
+        <item>常用</item>
+        <item>讨论区</item>
+        <item>消息</item>
+        <item>好友</item>
+        <item>调查问卷</item>
+        <item>我的日程</item>
+        
+        <item>更多</item>
+        <item>日程安排</item>
+        <item>论坛概况</item>
+        <item>演讲嘉宾</item>
+        <item>展商列表</item>
+        <item>参会代表</item>
+        <item>新闻</item>
+        <item>参会须知</item>
+        <item>主办单位</item>
+        <item>往届回顾</item>
+        <item>下载中心</item>
+    </string-array>
+    <string-array name="home_list_names">
+        <item>您好，欢迎参加第九届中国商务旅行论坛！</item>
+        <item>广告位</item>
+        <item>论坛概况</item>
+        <item>日程安排</item>
+        <item>演讲嘉宾</item>
+        <item>展商列表</item>
+        <item>参会须知</item>
+        <item>广告位</item>
+    </string-array>
+
+</resources>

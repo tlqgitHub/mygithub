@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="46dp"
+        android:background="#868686" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="94dp"
+        android:background="#868686" />
+
+    <TextView
+        android:id="@+id/cell_line_textView1"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:gravity="right|center_vertical"
+        android:text="@string/mail_compose_recipient"
+        android:textColor="#868686"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/cell_line_textView2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="100dp"
+        android:background="@null"
+        android:enabled="false"
+        android:imeOptions="actionNext"
+        android:textColor="#2d2d2d"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/cell_line_textView3"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:gravity="right|center_vertical"
+        android:textColor="#868686"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/cell_line_textView4"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="49dp"
+        android:background="@null"
+        android:imeOptions="actionDone"
+        android:textColor="#2d2d2d"
+        android:textSize="17sp" />
+
+</RelativeLayout>

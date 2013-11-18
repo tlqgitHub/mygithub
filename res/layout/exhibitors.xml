@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="63dip"
+    android:background="@drawable/viewselector" >
+
+    <TextView
+        android:id="@+id/exhibitorsnameindex"
+        style="@style/MyDefaultTextAppearance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/speedindex"
+        android:text="A"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="63dip"
+        android:layout_below="@+id/exhibitorsnameindex"
+        android:background="@drawable/viewselector"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/exhibitorsname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:singleLine="true"
+            android:text="mingzi00000"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/exhibitorsnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/exhibitorsname"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="3dp"
+            android:singleLine="true"
+            android:text="mingzi"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

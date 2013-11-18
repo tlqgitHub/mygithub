@@ -1,0 +1,47 @@
+package com.poqop.document;
+
+import android.content.ContentResolver;
+import android.graphics.Bitmap;
+import android.graphics.RectF;
+import android.net.Uri;
+import android.view.View;
+
+/**
+ * 解码服务类<br>
+ * 
+ * @author - 2011-12-15 吴鑫 <br>
+ * 
+ * @version - 2011-12-15 v1<br>
+ * 
+ * @par 版权所有<br>
+ * 北京修远谊和科技发展有限公司<br>
+ */
+public interface DecodeService
+{
+    void setContentResolver(ContentResolver contentResolver);
+
+    void setContainerView(View containerView);
+
+    void open(Uri fileUri);
+
+    void decodePage(Object decodeKey, int pageNum, DecodeCallback decodeCallback, float zoom, RectF pageSliceBounds);
+
+    void stopDecoding(Object decodeKey);
+
+    int getEffectivePagesWidth();
+
+    int getEffectivePagesHeight();
+
+    int getPageCount();
+
+    int getPageWidth(int pageIndex);
+
+    int getPageHeight(int pageIndex);
+
+    void recycle();
+
+    public interface DecodeCallback
+    {
+        void decodeComplete(Bitmap bitmap);
+    }
+}

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/android/!svn/ver/730/WHP/pdf/com/poqop/document
+END
+DecodeServiceBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/android/!svn/ver/575/WHP/pdf/com/poqop/document/DecodeServiceBase.java
+END
+PageTreeNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/android/!svn/ver/730/WHP/pdf/com/poqop/document/PageTreeNode.java
+END
+ViewerPreferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/android/!svn/ver/474/WHP/pdf/com/poqop/document/ViewerPreferences.java
+END
+DecodeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/android/!svn/ver/575/WHP/pdf/com/poqop/document/DecodeService.java
+END
+GoToPageDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/android/!svn/ver/575/WHP/pdf/com/poqop/document/GoToPageDialog.java
+END
+VuDroidLibraryLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/android/!svn/ver/474/WHP/pdf/com/poqop/document/VuDroidLibraryLoader.java
+END
+BaseViewerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/android/!svn/ver/575/WHP/pdf/com/poqop/document/BaseViewerActivity.java
+END
+DocumentView.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/android/!svn/ver/575/WHP/pdf/com/poqop/document/DocumentView.java
+END
+Page.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/android/!svn/ver/575/WHP/pdf/com/poqop/document/Page.java
+END

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:background="@drawable/agenda_section_bg"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/s_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/agenda_section_arrow_right" />
+
+    <TextView
+        android:id="@+id/s_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/textview_style1"
+        android:gravity="center"
+        android:text="5"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/s_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="140dp"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="平行论坛"
+        android:textColor="#2d2d2d"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/s_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:gravity="center_vertical"
+        android:text="17:30-19:30"
+        android:textColor="#2d2d2d"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

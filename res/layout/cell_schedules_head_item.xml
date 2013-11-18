@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff" >
+
+    <ImageView
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/icon_time" />
+
+    <TextView
+        android:id="@+id/s_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        android:text="周六 17:30-19:30"
+        android:textColor="#2d2d2d"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/icon_map_s" />
+
+    <TextView
+        android:id="@+id/s_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="8dp"
+        android:text="百合厅"
+        android:textColor="#2d2d2d"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/s_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="35dp"
+        android:text="区域（城市）论坛：创新要素的聚集和辐射"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@id/s_title" />
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screenColor"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/screenshot" >
+
+    <ImageView
+        android:id="@+id/logoview"
+        android:layout_width="194dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="@string/huatan"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:id="@+id/progressview"
+        android:layout_width="260dp"
+        android:layout_height="14dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/progress_bar_bg"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/mainprogressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="6dp"
+            android:layout_centerInParent="true"
+            android:progressDrawable="@drawable/barcolor" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/logoview"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/mainprogresstextiew"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_above="@+id/progressview"
+        android:layout_centerHorizontal="true"
+        android:text="@string/loading"
+        android:textAlignment="gravity"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:visibility="gone" >
+    </TextView>
+
+</RelativeLayout>
